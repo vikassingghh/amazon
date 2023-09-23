@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.ad-1{
+    font-size: 0.80rem;
+    color: ivory;   
+    margin-left: 20px; 
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.ad-2{
+    font-size: 1rem;
+    margin-left: 5px;
+    color: aliceblue;
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: pink;
+    justify-content: space-evenly;
+}
+.search-1{
+    border: none;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-2{
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 166, 57);
+    font-size: 1.2rem;
+    width: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.lang i{
+    padding-left: 10px;
+}
+.nav-sign h1 span{
+    font-size: 0.50rem;
+}
+.nav-sign h1{
+    font-size: 0.70rem;
+}
+.nav-sign h2{
+    font-size: 0.80rem;
+    font-weight: 500;
+}
+.nav-order h1{
+    font-size: 0.70rem;
+}
+.nav-order h2{
+    font-size: 0.80rem;
+    font-weight: 500;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #232f3e;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt{
+    display: flex;
+    width: 95%;
+    font-size: 0.90rem; 
+    gap: 15px;
+       
+}
+.panel-all{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.hero{
+    background-image: url(./81KkrQWEHIL._SX3000_.jpg);
+    background-size: cover;
+    height: 220px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(246, 231, 93);
+}
+.box{
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.box-img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.name{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.see{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 0.90rem;
+    font-weight: 500;
+    color: green;
+}
+.more{
+    /* height: 450px; */
+    background-color: rgb(246, 231, 93);
+}
+.more{
+    padding-top: 20px;
+}
+.first1{
+    background-color: white;
+    text-align: center;
+    height: 120px;
+    margin-top: 60px;
+}
+.sin{
+    background: linear-gradient(rgb(237, 206, 149),rgb(238, 189, 97),orange);
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;   
+    margin-inline: auto;
+    margin-top: 5px;
+}
+.sin p{
+    padding-top: 5px;
+}
+.see1{
+    font-size: 0.85rem;
+}
+.new{
+    font-size: 0.80rem;
+    margin-top: 5px;
+}
+.new p span{
+    color: green;
+}
+.second2{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.third3{
+    background-color: #222f3d;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+
+}
+ul{
+    margin-top: 30px;
+}
+ul p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+ul a{
+    display: block;
+    font-size: 0.90rem;
+    margin-top: 10px;
+}
+.fourth4-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.fourth4-1{
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+.fourth4-1 p{
+    padding-left: 80px;
+    font-size: 0.77rem;
+}
+.fourth4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3f3f3;
+    font-size: 0.80rem;
+    background-color: #37475a;
+}
+
+
+
+@media  (min-width:200px) and (max-width:700px){
+.nav-search{
+    display: none;
+}
